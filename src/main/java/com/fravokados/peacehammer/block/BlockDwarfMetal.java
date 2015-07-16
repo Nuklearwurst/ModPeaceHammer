@@ -16,11 +16,9 @@ import java.util.List;
  * @author Nuklearwurst
  */
 public class BlockDwarfMetal extends BlockPH {
-
-
 	/**
-	 * 0: Bad Sand
-	 * 1: Blood Sand
+	 * 0: Gromril
+	 * 1: Oathgold
 	 */
 	private static final int SUB_BLOCK_COUNT = 2;
 
@@ -29,6 +27,9 @@ public class BlockDwarfMetal extends BlockPH {
 
 	public BlockDwarfMetal() {
 		super(Material.iron, Strings.Block.METAL_BLOCK);
+		setHardness(5.0F);
+		setResistance(10.0F);
+		setStepSound(soundTypeMetal);
 	}
 
 	@Override

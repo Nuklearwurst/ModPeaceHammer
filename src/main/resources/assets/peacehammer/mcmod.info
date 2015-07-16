@@ -1,0 +1,16 @@
+[
+{
+  "modid": "peacehammer",
+  "name": "PeaceHammer",
+  "description": "A Warhammer inspired Minecraft Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nuklearwurst", "Nasenbeiﬂer"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

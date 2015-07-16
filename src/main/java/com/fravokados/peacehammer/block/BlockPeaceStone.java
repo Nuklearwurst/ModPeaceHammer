@@ -31,6 +31,7 @@ public class BlockPeaceStone extends BlockPH {
 		super(Material.rock, Strings.Block.PEACE_STONE);
 		setHardness(1.5F);
 		setResistance(10.0F);
+		setStepSound(soundTypePiston);
 	}
 
 	@Override
