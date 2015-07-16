@@ -1,0 +1,27 @@
+## eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
+
+## gradle
+.gradle
+build
+out
+lib
+
+## ForgeGradle
+run
+jars
+
+## Idea
+.idea
+*.iml
+*.ipr
+*.iws
+
+## Other
+*.db
+classes
