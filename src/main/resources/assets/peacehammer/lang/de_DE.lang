@@ -1,0 +1,28 @@
+#Blocks
+tile.peacehammer:badSand.name=Düstersand
+tile.peacehammer:bloodSand.name=Bluthornsand
+tile.peacehammer:madDirt.name=Dreck des Wahnsinns
+tile.peacehammer:dryDirt.name= Trockener Sand
+tile.peacehammer:madGrass.name=Gras des Wahnsinns
+tile.peacehammer:dryGrass.name=Trockenes Gras
+tile.peacehammer:badStone.name=Düsterstein
+tile.peacehammer:bloodStone.name=Bluthornstein
+tile.peacehammer:roadStone.name=Zwegischer Stein
+tile.peacehammer:runeStone.name=Zwegischer Stein
+tile.peacehammer:dwarfStone.name=Zwegischer Stein
+tile.peacehammer:oathGoldOre.name=Eidgolderz
+tile.peacehammer:gromrilOre.name=Gromrilerz
+tile.peacehammer:oathGoldBlock.name=Block aus Eidgold
+tile.peacehammer:gromrilBlock.name=Block aus Gromril
+tile.peacehammer:caveMoss.name=Höhlenmoos
+tile.peacehammer:caveMossLamp.name=Zwergische Moodlampe
+tile.peacehammer:beerKeg.name=Bierfass
+tile.peacehammer:dwarfForge.name=Zwergische Esse
+tile.peacehammer:kingStone.name=Zwergischer Thron
+tile.peacehammer:badTotem.name=Mysteriöses Totem
+tile.peacehammer:badSand.gyroCopter=Gyrokopter
+
+#Items
+
+#CreativeTab
+itemGroup.peacehammer=PeaceHammer

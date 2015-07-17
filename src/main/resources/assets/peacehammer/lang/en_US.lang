@@ -1,26 +1,26 @@
 #Blocks
-tile.peacehammer:badSand.name=badSand
-tile.peacehammer:bloodSand.name=bloodSand
-tile.peacehammer:madDirt.name=madDirt
-tile.peacehammer:dryDirt.name=dryDirt
-tile.peacehammer:madGrass.name=madGrass
-tile.peacehammer:dryGrass.name=dryGrass
-tile.peacehammer:badStone.name=badStone
-tile.peacehammer:bloodStone.name=bloodStone
-tile.peacehammer:roadStone.name=roadStone
-tile.peacehammer:runeStone.name=runeStone
-tile.peacehammer:dwarfStone.name=dwarfStone
-tile.peacehammer:oathGoldOre.name=oathGoldOre
-tile.peacehammer:gromrilOre.name=gromrilOre
-tile.peacehammer:oathGoldBlock.name=oathGoldBlock
-tile.peacehammer:gromrilBlock.name=gromrilBlock
-tile.peacehammer:caveMoss.name=caveMoss
-tile.peacehammer:caveMossLamp.name=caveMossLamp
-tile.peacehammer:beerKeg.name=beerKeg
-tile.peacehammer:dwarfForge.name=dwarfForge
-tile.peacehammer:kingStone.name=kingStone
-tile.peacehammer:badTotem.name=badTotem
-tile.peacehammer:badSand.gyroCopter=gyroCopter
+tile.peacehammer:badSand.name=Badlandsand
+tile.peacehammer:bloodSand.name=Bloodhornsand
+tile.peacehammer:madDirt.name=Dirt of Madness
+tile.peacehammer:dryDirt.name= Dryed Sand
+tile.peacehammer:madGrass.name=Grass of Madness
+tile.peacehammer:dryGrass.name=Dryed Sand
+tile.peacehammer:badStone.name=Badlandstone
+tile.peacehammer:bloodStone.name=Bloodhornstone
+tile.peacehammer:roadStone.name=Dwarfcrafted Stone
+tile.peacehammer:runeStone.name=Dwarfcrafted Stone
+tile.peacehammer:dwarfStone.name=Dwarfcrafted Stone
+tile.peacehammer:oathGoldOre.name=Oathgoldore
+tile.peacehammer:gromrilOre.name=Gromrilore
+tile.peacehammer:oathGoldBlock.name=Block of Oathgold
+tile.peacehammer:gromrilBlock.name=Block of Gromril
+tile.peacehammer:caveMoss.name=Cavemoss
+tile.peacehammer:caveMossLamp.name=Dwarfcrafted Mosslamp
+tile.peacehammer:beerKeg.name=Beerkeg
+tile.peacehammer:dwarfForge.name=Dwarfforge
+tile.peacehammer:kingStone.name=Dwarfcrafted Throne
+tile.peacehammer:badTotem.name=Mysterious Totem
+tile.peacehammer:badSand.gyroCopter=Gyrocopter
 
 #Items
 
