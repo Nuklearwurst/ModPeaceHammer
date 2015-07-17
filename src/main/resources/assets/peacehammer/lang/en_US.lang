@@ -23,6 +23,22 @@ tile.peacehammer:badTotem.name=Mysterious Totem
 tile.peacehammer:badSand.gyroCopter=Gyrocopter
 
 #Items
+item.peacehammer:oathGoldIngot.name=oathGoldIngot
+item.peacehammer:gromrilIngot.name=gromrilIngot
+item.peacehammer:mysteriousMap.name=mysteriousMap
+item.peacehammer:tomeOfKnowledge.name=tomeOfKnowledge
+item.peacehammer:dwarfPickaxe.name=dwarfPickaxe
+item.peacehammer:dwarfShovel.name=dwarfShovel
+item.peacehammer:dwarfAxe.name=dwarfAxe
+item.peacehammer:emptyTankard.name=emptyTankard
+item.peacehammer:beer.name=beer
+item.peacehammer:dwarvenBeer.name=dwarvenBeer
+item.peacehammer:brownMalt.name=brownMalt
+item.peacehammer:greenMalt.name=greenMalt
+item.peacehammer:grindedMalt.name=grindedMalt
+item.peacehammer:hops.name=hops
+item.peacehammer:mash.name=mash
+item.peacehammer:yeast.name=yeast
 
 #CreativeTab
 itemGroup.peacehammer=PeaceHammer
