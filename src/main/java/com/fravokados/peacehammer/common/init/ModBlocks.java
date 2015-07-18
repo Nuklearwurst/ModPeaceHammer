@@ -1,6 +1,9 @@
 package com.fravokados.peacehammer.common.init;
 
 import com.fravokados.peacehammer.block.*;
+import com.fravokados.peacehammer.block.tileentity.TileEntityBadTotem;
+import com.fravokados.peacehammer.block.tileentity.TileEntityGyroCopter;
+import com.fravokados.peacehammer.block.tileentity.TileEntityKingStone;
 import com.fravokados.peacehammer.item.block.*;
 import com.fravokados.peacehammer.lib.Reference;
 import com.fravokados.peacehammer.lib.Strings;
@@ -72,5 +75,8 @@ public class ModBlocks {
 	}
 	
 	public static void registerTileEntities() {
+		GameRegistry.registerTileEntity(TileEntityBadTotem.class, Strings.Block.BAD_TOTEM);
+		GameRegistry.registerTileEntity(TileEntityKingStone.class, Strings.Block.KING_STONE);
+		GameRegistry.registerTileEntity(TileEntityGyroCopter.class, Strings.Block.GYRO_COPTER);
 	}
 }

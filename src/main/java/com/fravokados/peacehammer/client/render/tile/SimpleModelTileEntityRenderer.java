@@ -1,5 +1,7 @@
 package com.fravokados.peacehammer.client.render.tile;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.entity.Entity;
@@ -11,6 +13,7 @@ import org.lwjgl.opengl.GL12;
 /**
  * @author Nuklearwurst
  */
+@SideOnly(Side.CLIENT)
 public class SimpleModelTileEntityRenderer extends TileEntitySpecialRenderer {
 
 	//The model of your block
