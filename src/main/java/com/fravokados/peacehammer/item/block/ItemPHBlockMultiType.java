@@ -1,4 +1,4 @@
-package com.fravokados.peacehammer.item;
+package com.fravokados.peacehammer.item.block;
 
 import com.fravokados.peacehammer.lib.Textures;
 import net.minecraft.block.Block;

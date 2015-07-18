@@ -1,4 +1,4 @@
-package com.fravokados.peacehammer.item;
+package com.fravokados.peacehammer.item.block;
 
 import com.fravokados.peacehammer.lib.Strings;
 import net.minecraft.block.Block;
@@ -7,9 +7,9 @@ import net.minecraft.item.ItemStack;
 /**
  * @author Nuklearwurst
  */
-public class ItemBlockPeaceSand extends ItemPHBlockMultiType {
+public class ItemBlockPeaceGrass extends ItemPHBlockMultiType {
 
-	public ItemBlockPeaceSand(Block block) {
+	public ItemBlockPeaceGrass(Block block) {
 		super(block);
 	}
 
@@ -17,10 +17,10 @@ public class ItemBlockPeaceSand extends ItemPHBlockMultiType {
 	protected String getUnlocalizedNameForItem(ItemStack stack) {
 		switch (stack.getItemDamage()) {
 			case 0:
-				return Strings.Block.BAD_SAND;
+				return Strings.Block.MAD_GRASS;
 			case 1:
-				return Strings.Block.BLOOD_SAND;
+				return Strings.Block.DRY_GRASS;
 		}
-		return Strings.Block.PEACE_SAND;
+		return Strings.Block.PEACE_GRASS;
 	}
 }

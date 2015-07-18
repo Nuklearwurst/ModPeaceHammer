@@ -1,7 +1,7 @@
 package com.fravokados.peacehammer.common.init;
 
 import com.fravokados.peacehammer.block.*;
-import com.fravokados.peacehammer.item.*;
+import com.fravokados.peacehammer.item.block.*;
 import com.fravokados.peacehammer.lib.Reference;
 import com.fravokados.peacehammer.lib.Strings;
 import cpw.mods.fml.common.registry.GameRegistry;
