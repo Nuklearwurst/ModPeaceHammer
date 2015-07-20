@@ -15,18 +15,19 @@ import com.fravokados.peacehammer.lib.Textures;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.MinecraftForgeClient;
 
 public class ClientProxy extends CommonProxy {
 
 	@Override
 	public void registerRenderer() {
-		ModelBase model[] = {new ModelKingStone(), new ModelBadTotem(), new ModelGyroCopter()};
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKingStone.class, new SimpleModelTileEntityRenderer(model[0], Textures.TEXTURE_KINGSTONE));
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBadTotem.class, new SimpleModelTileEntityRenderer(model[1], Textures.TEXTURE_BADTOTEM));
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityGyroCopter.class, new SimpleModelTileEntityRenderer(model[2], Textures.TEXTURE_GYROCOPTER));
+		ModelBase modelKingStone = new ModelKingStone();
+		ModelBase modelBadTotem =  new ModelBadTotem();
+		ModelBase modelGyroCopter = new ModelGyroCopter();
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKingStone.class, new SimpleModelTileEntityRenderer(modelKingStone, Textures.TEXTURE_KINGSTONE));
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBadTotem.class, new SimpleModelTileEntityRenderer(modelBadTotem, Textures.TEXTURE_BADTOTEM));
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityGyroCopter.class, new SimpleModelTileEntityRenderer(modelGyroCopter, Textures.TEXTURE_GYROCOPTER));
 
-		MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(ModBlocks.STATUE), new StatueItemRenderer(model, new ResourceLocation[] {Textures.TEXTURE_KINGSTONE, Textures.TEXTURE_BADTOTEM, Textures.TEXTURE_GYROCOPTER}));
+		MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(ModBlocks.STATUE), new StatueItemRenderer(modelKingStone, modelBadTotem, modelGyroCopter));
 	}
 }
